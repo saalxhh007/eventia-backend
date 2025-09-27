@@ -42,4 +42,6 @@ async function getClient() {
 
   return client
 }
-export default { normalizeNum, sendWhatsAppVerification }
+export default { normalizeNum 
+                // sendWhatsAppVerification
+               }

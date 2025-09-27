@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
+  "engines": {
+  "node": "20.x"
+  },
   "author": "",
   "type": "module",
   "main": "index.js",

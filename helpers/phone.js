@@ -17,20 +17,20 @@ function normalizeNum(phone) {
   return cleaned
 }
 
-async function sendWhatsAppVerification(phone, code) {
-  const client = await getClient();
+// async function sendWhatsAppVerification(phone, code) {
+//   const client = await getClient();
 
-  const waId = phone.replace(/^\+/, '') + '@c.us';
+//   const waId = phone.replace(/^\+/, '') + '@c.us';
 
-  const message = `Your BookStore verification code is: *${code}*`;
+//   const message = `Your BookStore verification code is: *${code}*`;
 
-  try {
-    await client.sendText(waId, message);
-  } catch (error) {
-    console.error('Failed to send WhatsApp message:', error);
-    throw new Error('WhatsApp message sending failed');
-  }
-}
+//   try {
+//     await client.sendText(waId, message);
+//   } catch (error) {
+//     console.error('Failed to send WhatsApp message:', error);
+//     throw new Error('WhatsApp message sending failed');
+//   }
+// }
 
 async function getClient() {
   if (client) return client

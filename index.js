@@ -1,7 +1,7 @@
 import { PrismaClient } from "./generated/prisma/client.js"
-import authRouter from "./routes/UserRouters/auth.router.js";
-import usersRouter from "./routes/UserRouters/users.router.js";
-import profileRouter from "./routes/UserRouters/profile.router.js";
+import authRouter from "./routes/userRouters/auth.router.js";
+import usersRouter from "./routes/userRouters/users.router.js";
+import profileRouter from "./routes/userRouters/profile.router.js";
 import venuesRouter from "./routes/venuesRouters/venues.router.js";
 import imagesRouter from "./routes/venuesRouters/venue.images.router.js";
 import bookingsRouter from "./routes/bookings.router.js";
